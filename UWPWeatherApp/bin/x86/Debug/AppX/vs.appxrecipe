@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>F4F234CF56D66765E2DDE164681DF32DEC6F00942E352BD5FC4C75DEC6A8977C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3E0950995272AEA1C4F477FFDA202A1D8F363E2615558B9892DB30A14C9A9F79</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6afabec6-73c1-457a-891a-ddfdb378361a_1.0.0.0_x86__1zsnpk96ts83t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6afabec6-73c1-457a-891a-ddfdb378361a_1zsnpk96ts83t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6afabec6-73c1-457a-891a-ddfdb378361a</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-28T16:05:02.986</Modified>
+      <Modified>2017-03-28T16:22:35.220</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.exe">
       <PackagePath>entrypoint\UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-28T16:04:58.561</Modified>
+      <Modified>2017-03-28T16:22:15.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -577,11 +577,11 @@
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-28T15:57:45.242</Modified>
+      <Modified>2017-03-28T16:22:30.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\UWPWeatherApp.exe">
       <PackagePath>UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-28T16:05:02.975</Modified>
+      <Modified>2017-03-28T16:22:35.193</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

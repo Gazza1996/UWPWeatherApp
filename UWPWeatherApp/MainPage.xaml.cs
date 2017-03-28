@@ -30,7 +30,7 @@ namespace UWPWeatherApp
         private async void Button_click(object sender, RoutedEventArgs e)
         {
             RootObject showWeather = await OpenWeatherMap.showWeather(20.0, 30.0);
-            TextResult.Text = showWeather.name + " - " + showWeather.main.temp + " - " + showWeather.weather[0].description;
+            TextResult.Text = showWeather.name + " - " + ((int)showWeather.main.temp).ToString() + " - " + showWeather.weather[0].description;
         }
     }
 }

@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-28T11:39:26.796</Modified>
+      <Modified>2017-03-28T12:04:38.827</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.exe">
       <PackagePath>entrypoint\UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-28T11:38:48.116</Modified>
+      <Modified>2017-03-28T12:04:08.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.xr.xml">
       <PackagePath>UWPWeatherApp.xr.xml</PackagePath>
-      <Modified>2017-03-28T11:38:45.601</Modified>
+      <Modified>2017-03-28T12:04:06.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -505,11 +505,11 @@
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-28T11:39:15.564</Modified>
+      <Modified>2017-03-28T12:04:32.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\UWPWeatherApp.exe">
       <PackagePath>UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-28T11:39:26.769</Modified>
+      <Modified>2017-03-28T12:04:38.798</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

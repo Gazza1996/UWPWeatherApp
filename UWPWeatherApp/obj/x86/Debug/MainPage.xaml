@@ -10,6 +10,8 @@
     <StackPanel Background="SkyBlue">
         <Button x:ConnectionId='1' Content="Show Weather"                      />
         <TextBlock x:ConnectionId='2' Name="TextResult" />
+        <Image x:ConnectionId='3' Name="Image" Width="200" Height="200"/>
+        
 
     </StackPanel>
 </Page>

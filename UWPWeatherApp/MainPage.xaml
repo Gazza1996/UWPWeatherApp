@@ -10,6 +10,8 @@
     <StackPanel Background="SkyBlue">
         <Button Content="Show Weather" Click="Button_click" />
         <TextBlock Name="TextResult" />
+        <Image Name="Image" Width="200" Height="200"/>
+        
 
     </StackPanel>
 </Page>

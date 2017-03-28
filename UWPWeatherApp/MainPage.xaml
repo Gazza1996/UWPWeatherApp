@@ -8,8 +8,10 @@
     mc:Ignorable="d">
 
     <StackPanel Background="SkyBlue">
-        <Button Content="Show Weather" Click="Button_click" />
-        <TextBlock Name="TextResult" />
+        <Button Content="Show Weather" Click="Button_click" HorizontalAlignment="Center"/>
+        <TextBlock Name="name" HorizontalAlignment="Center"/>
+        <TextBlock Name="temp" HorizontalAlignment="Center"/>
+        <TextBlock Name="Description" HorizontalAlignment="Center"/>
         <Image Name="Image" Width="200" Height="200"/>
         
 

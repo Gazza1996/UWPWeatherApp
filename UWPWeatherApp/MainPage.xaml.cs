@@ -32,7 +32,7 @@ namespace UWPWeatherApp
         {
             RootObject showWeather = await OpenWeatherMap.showWeather(20.0, 30.0);
 
-            String icon = String.Format("http://openweathermap.org/img/w/{0}.png", showWeather.weather[0].icon);
+            String icon = String.Format("ms-appx:///Assets/icons/{0}.png", showWeather.weather[0].icon);
             Image.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
 
             TextResult.Text = showWeather.name + " - " + ((int)showWeather.main.temp).ToString() + " - " + showWeather.weather[0].description;

@@ -8,14 +8,15 @@
     mc:Ignorable="d">
 
     <StackPanel Background="SkyBlue">
-        <Image Name="Image" Width="200" Height="200"/>
+        <Image x:ConnectionId='1' Name="Image" Width="200" Height="200"/>
 
-        <TextBlock Name="name" HorizontalAlignment="Center"/>
-        <TextBlock Name="temp" HorizontalAlignment="Center"/>
-        <TextBlock Name="Description" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='2' Name="name" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='3' Name="temp" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='4' Name="Description" HorizontalAlignment="Center"/>
 
-        <Button Content="Show Weather" Click="Button_click" HorizontalAlignment="Center"/> 
+        <Button x:ConnectionId='5' Content="Show Weather"                      HorizontalAlignment="Center"/> 
         
 
     </StackPanel>
 </Page>
+

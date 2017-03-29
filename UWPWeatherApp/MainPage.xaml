@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Background="SkyBlue">
+    <StackPanel Background="SkyBlue" VerticalAlignment="Center">
         <Image Name="Image" Width="200" Height="200"/>
 
         <TextBlock Name="name" HorizontalAlignment="Center"/>
@@ -16,6 +16,5 @@
 
         <Button Content="Show Weather" Click="Button_click" HorizontalAlignment="Center"/> 
         
-
     </StackPanel>
 </Page>

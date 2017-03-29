@@ -21,6 +21,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="UWPWeatherApp.MainPage" />
   </Roots.RootTypes>

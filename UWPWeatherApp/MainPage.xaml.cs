@@ -26,8 +26,21 @@ namespace UWPWeatherApp
         public MainPage()
         {
             this.InitializeComponent();
+            
         }
-        
+
+      /*  private async void pivot(object sender, RoutedEventArgs e)
+        {
+            var location = await Location.position();
+
+            RootObject showWeather = await OpenWeatherMap.showWeather(location.Coordinate.Latitude, location.Coordinate.Longitude);
+
+            String icon = String.Format("ms-appx:///Assets/icons/{0}.png", showWeather.weather[0].icon);
+            Image.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
+
+            other.Text = "";
+        }
+        */
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             var location = await Location.position();

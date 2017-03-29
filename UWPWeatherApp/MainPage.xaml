@@ -7,14 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
 
-    <StackPanel>
-        <StackPanel Background="SkyBlue" VerticalAlignment="Center">
+    <StackPanel Background="SkyBlue" >
+        
+        <StackPanel VerticalAlignment="Center">
+            
         <Image Name="Image" Width="200" Height="200"/>
 
-        <TextBlock Name="name" HorizontalAlignment="Center"/>
-        <TextBlock Name="temp" HorizontalAlignment="Center"/>
-        <TextBlock Name="Description" HorizontalAlignment="Center"/>
+        <TextBlock Name="name" HorizontalAlignment="Center" FontSize="24"/>
+        <TextBlock Name="temp" HorizontalAlignment="Center" FontSize="24"/>
+        <TextBlock Name="Description" HorizontalAlignment="Center" FontSize="24"/>
 
     </StackPanel>
+        
     </StackPanel>
 </Page>

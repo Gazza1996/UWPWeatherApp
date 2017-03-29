@@ -27,8 +27,8 @@ namespace UWPWeatherApp
         {
             this.InitializeComponent();
         }
-
-        private async void Button_click(object sender, RoutedEventArgs e)
+        
+        private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             var location = await Location.position();
 
@@ -40,6 +40,7 @@ namespace UWPWeatherApp
             name.Text = showWeather.name;
             temp.Text = ((int)showWeather.main.temp).ToString();
             Description.Text = showWeather.weather[0].description;
+
         }
     }
 }

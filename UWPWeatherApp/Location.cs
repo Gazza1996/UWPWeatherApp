@@ -11,6 +11,7 @@ namespace UWPWeatherApp
     {
         public async static Task<Geoposition> position()
         {
+            // code to gather Exact GPS Location (Currently not in use)
             var accessStatus = await Geolocator.RequestAccessAsync();
 
             if (accessStatus != GeolocationAccessStatus.Allowed) throw new Exception();

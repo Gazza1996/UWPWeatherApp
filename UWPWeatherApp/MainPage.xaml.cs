@@ -31,20 +31,25 @@ namespace UWPWeatherApp
         
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            // for getting exact location
             var location = await Location.position();
-
+            // create a value showWeather to take api key from openweathermap and give locatin points (lat, lon)
             RootObject showWeather = await OpenWeatherMap.showWeather(location.Coordinate.Latitude, location.Coordinate.Longitude);
-
+            // code set for outputting icons for specific weather
             String icon = String.Format("ms-appx:///Assets/icons/{0}.png", showWeather.weather[0].icon);
             Image.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
             Other.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
 
-            // current 
+            // current
+            // output for textblock 
             name.Text = showWeather.name;
+            // needs to be set to toString() to format properly
             temp.Text = ((int)showWeather.main.temp).ToString() + "°c";
             Description.Text = showWeather.weather[0].description;
 
             // other conditions
+            // output for textblock
+            // needs to be set to toString() to format properly
             Humidity.Text = "Humidity: " + ((int)showWeather.main.humidity).ToString() + "%";
             Wind.Text = "Wind Speed: " + showWeather.wind.speed + "km/h";
             Temp_max.Text = "Max Temperature: " + showWeather.main.temp_max + "°c";

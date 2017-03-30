@@ -14,20 +14,28 @@ namespace UWPWeatherApp
     {
         public async static Task<RootObject> showWeather(double lat, double lon)
         {
+            // httpClient to use API
             var http = new HttpClient();
+            // url API key to get weather information
             var url = string.Format("http://api.openweathermap.org/data/2.5/weather?lat=53.34&lon=-6.26&appid=433a8cc464dff9ca30bee1a299a6f83a&units=metric", lat, lon);
             var response = await http.GetAsync(url);
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
-
+            // memory Stream to produce the result
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+            // set data value from serializer
             var data = (RootObject)serializer.ReadObject(ms);
 
+            // return function
             return data;
 
         }
     }
+
+    // the [DataContract] tells the serializer to treat value like a class
+    // the [DataMember] tells the serializer to treat values like a property
+
     [DataContract]
     public class Coord
     {

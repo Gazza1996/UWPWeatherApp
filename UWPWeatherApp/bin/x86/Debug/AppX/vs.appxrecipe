@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T14:06:46.833</Modified>
+      <Modified>2017-03-30T14:10:00.985</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.exe">
       <PackagePath>entrypoint\UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T14:06:40.024</Modified>
+      <Modified>2017-03-30T14:09:52.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -587,11 +587,11 @@
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T14:06:45.933</Modified>
+      <Modified>2017-03-30T14:09:59.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\UWPWeatherApp.exe">
       <PackagePath>UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T14:06:46.823</Modified>
+      <Modified>2017-03-30T14:10:00.975</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -42,7 +42,8 @@ namespace UWPWeatherApp
             temp.Text = ((int)showWeather.main.temp).ToString();
             Description.Text = showWeather.weather[0].description;
 
-            Humidity.Text = ((int)showWeather.main.humidity).ToString();
+            
+            Humidity.Text = "Humidity: " + ((int)showWeather.main.humidity).ToString();
 
         }
     }

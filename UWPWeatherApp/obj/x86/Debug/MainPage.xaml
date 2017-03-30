@@ -6,19 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"                     >
-
+<!--
     <StackPanel Background="SkyBlue" >
         
         <StackPanel VerticalAlignment="Center">
             
-        <Image x:ConnectionId='2' Name="Image" Width="200" Height="200"/>
+        <Image Name="Image" Width="200" Height="200"/>
 
-        <TextBlock x:ConnectionId='3' Name="name" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock x:ConnectionId='4' Name="temp" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock x:ConnectionId='5' Name="Description" HorizontalAlignment="Center" FontSize="24"/>
+        <TextBlock Name="name" HorizontalAlignment="Center" FontSize="24"/>
+        <TextBlock Name="temp" HorizontalAlignment="Center" FontSize="24"/>
+        <TextBlock Name="Description" HorizontalAlignment="Center" FontSize="24"/>
 
     </StackPanel>
-
+-->
 <!--
         <Pivot Title="WeatherApp">
             <PivotItem Name="other" Header="Other">
@@ -28,6 +28,30 @@
             </PivotItem>
         </Pivot>-->
 
+    <StackPanel Background="SkyBlue">
+
+        <Pivot Title="WeatherApp">
+            <PivotItem x:ConnectionId='2' Name="pivot" Header="O">
+                <StackPanel>
+                    <!-- <TextBlock Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>-->
+                    <!-- <Image Name="Image" Width="200" Height="200"/>-->
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem x:ConnectionId='3' Name="pivot1" Header="Other">
+                <StackPanel>
+                    <TextBlock x:ConnectionId='4' Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock x:ConnectionId='5' Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock x:ConnectionId='6' Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <Image x:ConnectionId='7' Name="Image" Width="200" Height="200"/>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
     </StackPanel>
+    
+
+    <!--</StackPanel>-->
 </Page>
 

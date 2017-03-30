@@ -11,17 +11,26 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="Title" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Name" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Name" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="UWPWeatherApp.MainPage" />
   </Roots.RootTypes>

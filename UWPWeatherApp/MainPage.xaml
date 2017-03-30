@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
-
+<!--
     <StackPanel Background="SkyBlue" >
         
         <StackPanel VerticalAlignment="Center">
@@ -18,7 +18,7 @@
         <TextBlock Name="Description" HorizontalAlignment="Center" FontSize="24"/>
 
     </StackPanel>
-
+-->
 <!--
         <Pivot Title="WeatherApp">
             <PivotItem Name="other" Header="Other">
@@ -28,5 +28,29 @@
             </PivotItem>
         </Pivot>-->
 
+    <StackPanel Background="SkyBlue">
+
+        <Pivot Title="WeatherApp">
+            <PivotItem Name="pivot" Header="O">
+                <StackPanel>
+                    <!-- <TextBlock Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>-->
+                    <!-- <Image Name="Image" Width="200" Height="200"/>-->
+                </StackPanel>
+            </PivotItem>
+
+            <PivotItem Name="pivot1" Header="Other">
+                <StackPanel>
+                    <TextBlock Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <Image Name="Image" Width="200" Height="200"/>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
     </StackPanel>
+    
+
+    <!--</StackPanel>-->
 </Page>

@@ -46,7 +46,8 @@ namespace UWPWeatherApp
             // other conditions
             Humidity.Text = "Humidity: " + ((int)showWeather.main.humidity).ToString() + "%";
             Wind.Text = "Wind Speed: " + showWeather.wind.speed + "km/h";
-            Temp_max.Text = "Max Temperature: " + showWeather.main.temp_max + "°c" ;
+            Temp_max.Text = "Max Temperature: " + showWeather.main.temp_max + "°c";
+            Temp_min.Text = "Min Temperature: " + showWeather.main.temp_min + "°c";
 
         }
     }

@@ -24,6 +24,7 @@
                     <TextBlock Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                     <TextBlock Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                     <TextBlock Name="Temp_max" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                    <TextBlock Name="Temp_min" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                 </StackPanel>
             </PivotItem>
         </Pivot>

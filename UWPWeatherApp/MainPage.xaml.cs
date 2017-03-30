@@ -38,12 +38,14 @@ namespace UWPWeatherApp
             String icon = String.Format("ms-appx:///Assets/icons/{0}.png", showWeather.weather[0].icon);
             Image.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
 
+            // current 
             name.Text = showWeather.name;
-            temp.Text = ((int)showWeather.main.temp).ToString();
+            temp.Text = ((int)showWeather.main.temp).ToString() + "°c";
             Description.Text = showWeather.weather[0].description;
 
-            
-            Humidity.Text = "Humidity: " + ((int)showWeather.main.humidity).ToString();
+            // other conditions
+            Humidity.Text = "Humidity: " + ((int)showWeather.main.humidity).ToString() + "%";
+            Wind.Text = "Wind Speed: " + showWeather.wind.speed + "km/h";
 
         }
     }

@@ -24,6 +24,7 @@
             <PivotItem Name="pivot" Header="Other conditions">
                 <StackPanel>
                     <TextBlock Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                    <TextBlock Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                 </StackPanel>
             </PivotItem>
         </Pivot>

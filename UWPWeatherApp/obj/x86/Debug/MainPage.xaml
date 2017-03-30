@@ -13,10 +13,10 @@
         <Pivot Title="WeatherApp">
             <PivotItem x:ConnectionId='2' Name="pivot1" Header="Current">
                 <StackPanel>
-                    <TextBlock x:ConnectionId='5' Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock x:ConnectionId='6' Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock x:ConnectionId='7' Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <Image x:ConnectionId='8' Name="Image" Width="200" Height="200"/>
+                    <TextBlock x:ConnectionId='6' Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock x:ConnectionId='7' Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <TextBlock x:ConnectionId='8' Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                    <Image x:ConnectionId='9' Name="Image" Width="200" Height="200"/>
                 </StackPanel>
             </PivotItem>
         
@@ -24,6 +24,7 @@
             <PivotItem x:ConnectionId='3' Name="pivot" Header="Other conditions">
                 <StackPanel>
                     <TextBlock x:ConnectionId='4' Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                    <TextBlock x:ConnectionId='5' Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                 </StackPanel>
             </PivotItem>
         </Pivot>

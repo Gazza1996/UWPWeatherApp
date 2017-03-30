@@ -7,24 +7,29 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"                     >
 
-    <StackPanel Background="SkyBlue">
-        <Pivot Title="WeatherApp">
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="Assets/background.jpg" Opacity="0.3"/>
+        </StackPanel.Background>
+        <Pivot Title="">
             <PivotItem x:ConnectionId='2' Name="pivot1" Header="Current">
                 <StackPanel>
-                    <TextBlock x:ConnectionId='8' Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock x:ConnectionId='9' Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock x:ConnectionId='10' Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <Image x:ConnectionId='11' Name="Image" Width="200" Height="200"/>
+                    <TextBlock x:ConnectionId='9' Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34"/>
+                    <TextBlock x:ConnectionId='10' Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34"/>
+                    <TextBlock x:ConnectionId='11' Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34"/>
+                    <Image x:ConnectionId='12' Name="Image" Width="200" Height="200"/>
                 </StackPanel>
             </PivotItem>
         
 
             <PivotItem x:ConnectionId='3' Name="pivot" Header="Other conditions">
                 <StackPanel>
-                    <TextBlock x:ConnectionId='4' Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
-                    <TextBlock x:ConnectionId='5' Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
-                    <TextBlock x:ConnectionId='6' Name="Temp_max" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
-                    <TextBlock x:ConnectionId='7' Name="Temp_min" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                    <TextBlock x:ConnectionId='4' Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34" />
+                    <TextBlock x:ConnectionId='5' Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34" />
+                    <TextBlock x:ConnectionId='6' Name="Temp_max" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34" />
+                    <TextBlock x:ConnectionId='7' Name="Temp_min" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="34" />
+                    <Image x:ConnectionId='8' Name="Other" Width="200" Height="200"/>
+
                 </StackPanel>
             </PivotItem>
         </Pivot>

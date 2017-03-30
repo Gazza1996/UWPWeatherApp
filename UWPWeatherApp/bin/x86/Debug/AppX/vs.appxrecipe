@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T18:01:41.702</Modified>
+      <Modified>2017-03-30T18:35:02.569</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.exe">
       <PackagePath>entrypoint\UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T18:01:34.538</Modified>
+      <Modified>2017-03-30T18:34:55.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -456,6 +456,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-10-05T12:46:37.787</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+      <Modified>2017-03-30T18:21:35.206</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -578,7 +582,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.xr.xml">
       <PackagePath>UWPWeatherApp.xr.xml</PackagePath>
-      <Modified>2017-03-30T14:06:39.507</Modified>
+      <Modified>2017-03-30T18:16:50.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -587,11 +591,11 @@
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T18:01:40.697</Modified>
+      <Modified>2017-03-30T18:35:01.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\UWPWeatherApp.exe">
       <PackagePath>UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T18:01:41.692</Modified>
+      <Modified>2017-03-30T18:35:02.559</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

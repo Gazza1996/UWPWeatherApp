@@ -340,6 +340,9 @@
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

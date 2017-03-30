@@ -37,6 +37,7 @@ namespace UWPWeatherApp
 
             String icon = String.Format("ms-appx:///Assets/icons/{0}.png", showWeather.weather[0].icon);
             Image.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
+            Other.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
 
             // current 
             name.Text = showWeather.name;

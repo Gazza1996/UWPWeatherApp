@@ -6,41 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
-<!--
-    <StackPanel Background="SkyBlue" >
-        
-        <StackPanel VerticalAlignment="Center">
-            
-        <Image Name="Image" Width="200" Height="200"/>
-
-        <TextBlock Name="name" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock Name="temp" HorizontalAlignment="Center" FontSize="24"/>
-        <TextBlock Name="Description" HorizontalAlignment="Center" FontSize="24"/>
-
-    </StackPanel>
+<!--        
+        <StackPanel VerticalAlignment="Center">      
 -->
-<!--
-        <Pivot Title="WeatherApp">
-            <PivotItem Name="other" Header="Other">
-                <Grid>
-                    <TextBlock Name="pivot" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                </Grid>
-            </PivotItem>
-        </Pivot>-->
-
     <StackPanel Background="SkyBlue">
-
         <Pivot Title="WeatherApp">
-            <PivotItem Name="pivot" Header="O">
-                <StackPanel>
-                    <!-- <TextBlock Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-                    <TextBlock Name="Description" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>-->
-                    <!-- <Image Name="Image" Width="200" Height="200"/>-->
-                </StackPanel>
-            </PivotItem>
-
-            <PivotItem Name="pivot1" Header="Other">
+            <PivotItem Name="pivot1" Header="Current">
                 <StackPanel>
                     <TextBlock Name="name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
                     <TextBlock Name="temp" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
@@ -48,9 +19,15 @@
                     <Image Name="Image" Width="200" Height="200"/>
                 </StackPanel>
             </PivotItem>
-        </Pivot>
-    </StackPanel>
-    
+        
 
-    <!--</StackPanel>-->
+            <PivotItem Name="pivot" Header="Other conditions">
+                <StackPanel>
+                    <TextBlock Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+
+    </StackPanel>
+
 </Page>

@@ -6,9 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
-<!--        
-        <StackPanel VerticalAlignment="Center">      
--->
+
     <StackPanel Background="SkyBlue">
         <Pivot Title="WeatherApp">
             <PivotItem Name="pivot1" Header="Current">
@@ -25,6 +23,7 @@
                 <StackPanel>
                     <TextBlock Name="Humidity" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                     <TextBlock Name="Wind" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
+                    <TextBlock Name="Temp_max" Text="Humidity: " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" />
                 </StackPanel>
             </PivotItem>
         </Pivot>

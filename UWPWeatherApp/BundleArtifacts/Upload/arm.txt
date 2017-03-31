@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\ARM\Release\Upload\UWPWeatherApp_1.1.2.0_ARM.appx
+SymbolPackage=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\AppPackages\UWPWeatherApp_1.1.2.0\UWPWeatherApp_1.1.2.0_ARM.appxsym
+ResourcePack=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\_scale-125.appx
+ResourcePack=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\_scale-400.appx

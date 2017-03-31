@@ -9,32 +9,32 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6afabec6-73c1-457a-891a-ddfdb378361a</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Gary</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=415629DB-108F-4F36-9D90-FD8931EBD092</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>44265368327C89AEFA03C64916793939EEA38B291B2642C88EE1D4DE23239566</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>6afabec6-73c1-457a-891a-ddfdb378361a_1.0.0.0_x86__1zsnpk96ts83t</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>6afabec6-73c1-457a-891a-ddfdb378361a_1zsnpk96ts83t!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>6afabec6-73c1-457a-891a-ddfdb378361a</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Gary</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>DEB4171FC563990CFE598860D079FBFBE2C4EDEBAC89F815D5FA8A7635BA5D4F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49842GaryM96.DublinWeatherapp_1.1.2.0_x86__30a4rw5qdqt8e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49842GaryM96.DublinWeatherapp_30a4rw5qdqt8e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49842GaryM96.DublinWeatherapp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=415629DB-108F-4F36-9D90-FD8931EBD092</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T18:35:02.569</Modified>
+      <Modified>2017-03-31T10:19:35.237</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\UWPWeatherApp.exe">
       <PackagePath>entrypoint\UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T18:34:55.317</Modified>
+      <Modified>2017-03-31T10:19:30.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -462,7 +462,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-29T16:20:19.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\icons\01d.png">
@@ -591,11 +590,11 @@
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T18:35:01.487</Modified>
+      <Modified>2017-03-31T10:19:34.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x86\Debug\Core\UWPWeatherApp.exe">
       <PackagePath>UWPWeatherApp.exe</PackagePath>
-      <Modified>2017-03-30T18:35:02.559</Modified>
+      <Modified>2017-03-31T10:19:35.226</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

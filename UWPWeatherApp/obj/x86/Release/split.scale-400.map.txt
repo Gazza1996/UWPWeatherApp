@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\x86\Release\split.scale-400.pri"			"resources.pri"
+"C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\x86\Release\PackageLayout\Assets\BadgeLogo.scale-400.png"			"Assets\BadgeLogo.scale-400.png"

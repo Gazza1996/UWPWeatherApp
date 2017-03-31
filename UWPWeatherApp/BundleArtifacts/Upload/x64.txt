@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\bin\x64\Release\Upload\UWPWeatherApp_1.1.2.0_x64.appx
+SymbolPackage=C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\AppPackages\UWPWeatherApp_1.1.2.0\UWPWeatherApp_1.1.2.0_x64.appxsym

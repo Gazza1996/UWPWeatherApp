@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="49842GaryM96.DublinWeatherapp" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UWPWeatherApp.xr.xml" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/UWPWeatherApp.xr.xml">
+				<Candidate type="Path">
+					<Value>UWPWeatherApp.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="background.jpg" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/background.jpg">
+					<Candidate type="Path">
+						<Value>Assets\background.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/BadgeLogo.png"/>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="icons">
+					<NamedResource name="01d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/01d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\01d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="01n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/01n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\01n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/02d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\02d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/02n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\02n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/03d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\03d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/03n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\03n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/04d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\04d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/04n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\04n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/09d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\09d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/09n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\09n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/10d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\10d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/10n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\10n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/11d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\11d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/11n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\11n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/13d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\13d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/13n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\13n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50d.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/50d.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\50d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50n.png" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Assets/icons/50n.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\50n.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://49842GaryM96.DublinWeatherapp/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

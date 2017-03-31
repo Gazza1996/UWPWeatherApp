@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6afabec6-73c1-457a-891a-ddfdb378361a</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Gary</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=415629DB-108F-4F36-9D90-FD8931EBD092</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -345,7 +345,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\Assets\icons\01d.png">
       <PackagePath>Assets\icons\01d.png</PackagePath>

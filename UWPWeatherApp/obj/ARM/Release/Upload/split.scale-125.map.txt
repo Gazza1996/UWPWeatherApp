@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-125"
+"ResourceDimensions"		"scale-125"
+
+[Files]
+"C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\ARM\Release\Upload\split.scale-125.pri"			"resources.pri"
+"C:\Users\Gary\Desktop\UWPWeatherApp\UWPWeatherApp\obj\ARM\Release\PackageUploadLayout\Assets\SplashScreen.scale-125.png"			"Assets\SplashScreen.scale-125.png"

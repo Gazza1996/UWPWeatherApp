@@ -1,7 +1,7 @@
 # UWPWeatherApp
 3rd year Mobile applications project
 
-### Author - Gary Mannion
+### Author - Gary Mannion - G00319609
 
 ## Project Brief  
 Create a Universal Windows Project (UWP) that will each demonstrate the use of Isolated Storage and at least one other sensor or service available on the devices.  

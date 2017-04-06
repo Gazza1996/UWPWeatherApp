@@ -24,5 +24,10 @@ I decided to make a weather application for the city of Dublin as it is the capi
 ## Design Decisions
 My main design decisions were originally to have the current weather for the city to display immediately and have an icon depiciting the weather conditions appear on screen. I also would have an image of Dublin(O'Connell Bridge) as my background image and to have it transparent so the text would sit better and be easier to read against compared to a normal background image. I would have a second page which will give the user the humidity, min/max temperature and the current wind speed and the current condition icon will stay displayed along with the background image.  
 
+## Submission
+The application is currently at certification level for submission to the windows store which i expect to pass within the next couple of hours to be ready to publish to the store.
+
+> Developer Name is GaryM96
+
 ## Conclusion
 In conclusion i learned a great amount from choosing to do a weather app as my application. I learned how to use the location services available both by using coordinates and by getting the devices current location. Howwever if i was to do this app again i would try to incorporate a 5 day forecast displayed along the bottom of the app or even an hourly update for what conditions are predicted to be like.

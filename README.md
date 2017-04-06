@@ -14,9 +14,9 @@ These include:
 - Multi Touch Gesture Management 
 
 The UWP application should be well designed with a clear purpose and an answer to the question 
-`
+
 > “why will the user open this app for a second time?” 
-`
+
 
 ## Project Overview
 I decided to make a weather application for the city of Dublin as it is the capital of Ireland and has the highest population for any county or city in the whole entire country so would have the majority of window device users. The application will give the user the location, the current temperature, a description of the weather and an icon will appear with a representation of the weather. A second page will be available with extra weather conditions for the user to use.  
